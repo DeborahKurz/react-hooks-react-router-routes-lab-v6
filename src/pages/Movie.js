@@ -29,9 +29,9 @@ function Movie() {
       <main>
         <h1>{title}</h1>
         <p>Minutes: {time}</p>
-        <span>
+        <span>Genres: 
           {genres.map((genre, index)=>(
-            <span key={index}>Genres: {genre}</span>
+            <span key={index}>{genre}</span>
           ))}
         </span>
       </main>
