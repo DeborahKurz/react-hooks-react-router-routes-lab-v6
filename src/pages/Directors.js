@@ -12,8 +12,6 @@ function Directors() {
     })
   },[])
 
-  console.log("Directors: ", directors)
-
   return (
     <>
       <header>
