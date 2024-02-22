@@ -14,7 +14,6 @@ function Movie() {
     fetch(`http://localhost:4000/movies/${userId}`)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data)
     setTitle(data.title);
     setTime(data.time);
     setGenres(data.genres);
